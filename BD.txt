@@ -1,0 +1,8 @@
+create database telefonos;
+use felefonos;
+create table tb_telefonos(
+id int PRIMARY KEY AUTO_INCREMENT,
+nombre varchar(50),
+marca varchar(50),
+stock int
+);
